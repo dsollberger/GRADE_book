@@ -1,0 +1,22 @@
+Derek Sollberger
+ Jun 13th at 12:52 PM
+Hi all!  Does anyone have a recommendation for an R package or process where I can create fake data where ...?
+I can choose which numerical variables are highly correlated with the response variable
+also have categorical variables (some binary, some with several factors)
+I'm trying to write tutorials for myself to better understand PCA, CFA, mixed-models, etc.
+
+jonthegeek (he/him)
+:m:  19 days ago
+I keep meaning to try this out. I don't know if it will work for what you want, but I think your use case is an example of what it's for: https://github.com/ThinkR-open/fakir
+
+Vikram
+  19 days ago
+{wakefield} is another option. It allows you to specify correlations. (edited) 
+
+Vikram
+  19 days ago
+This is also a thorough walkthrough: https://evalf20.classes.andrewheiss.com/example/synthetic-data/
+
+Tan
+:m:  19 days ago
+https://debruine.github.io/faux/ also good
